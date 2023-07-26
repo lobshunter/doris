@@ -1,4 +1,4 @@
-<!-- 
+<!--
 Licensed to the Apache Software Foundation (ASF) under one
 or more contributor license agreements.  See the NOTICE file
 distributed with this work for additional information
@@ -25,18 +25,13 @@ This output is developed and tested using Beats 7.3.1
 
 ## How to build
 
-```
-go build -o filebeat filebeat/filebeat.go
-go build -o metricbeat metricbeat/metricbeat.go
-go build -o winlogbeat winlogbeat/winlogbeat.go
-go build -o packetbeat packetbeat/packetbeat.go
-go build -o auditbeat auditbeat/auditbeat.go
-go build -o heartbeat heartbeat/heartbeat.go
+```sh
+make build
 ```
 
 ## How to use
 
 See:
 
-- https://doris.apache.org/zh-CN/docs/dev/ecosystem/beats
-- https://doris.apache.org/docs/dev/ecosystem/beats
+- <https://doris.apache.org/zh-CN/docs/dev/ecosystem/beats>
+- <https://doris.apache.org/docs/dev/ecosystem/beats>
